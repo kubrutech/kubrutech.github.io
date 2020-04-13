@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kubrutech.com
+Token: c09c2650d1a826c456a250dbf0de4c42b238a2445c7b2c686741563e9bd5bbf9
