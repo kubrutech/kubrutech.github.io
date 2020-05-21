@@ -5,12 +5,62 @@
     <link>https://kubrutech.github.io/</link>
       <atom:link href="https://kubrutech.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Kubru Technology</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Kubru Technology LLC 2020</copyright><lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Kubru Technology LLC 2020</copyright><lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Kubru Technology</title>
       <link>https://kubrutech.github.io/</link>
     </image>
+    
+    <item>
+      <title>Covering My Tracks</title>
+      <link>https://kubrutech.github.io/blog/0002-private-browsing/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://kubrutech.github.io/blog/0002-private-browsing/</guid>
+      <description>&lt;h2 id=&#34;you-can-run-but-you-cant-hide&#34;&gt;You can run, but you can&amp;rsquo;t hide!&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve used ad-blockers for a long time, but not for the reason you may think. I have lived in places where unmetered Internet&amp;ndash;or any Internet service at all&amp;ndash;is hard to get. I lived for years on expensive metered cellular data plans, so it was not in my best interest to pay for downloading all the ads that appeared on almost evey website I visited. On top of the cost, downloading those ads cost me time because my connections were usually slow.&lt;/p&gt;
+&lt;p&gt;Once I got unmetered and slightly faster Internet access, I kept using the ad-blockers, but I felt guilty. Content creators often depend on ad revenue for their livelihood, and many sites reminded me of that fact every time I visited them. On the other hand, advertisements can contain malicious software and they track my every move on the web.&lt;/p&gt;
+&lt;h2 id=&#34;how-are-ads-and-browsing-tracking-a-threat-to-me&#34;&gt;How are ads and browsing tracking a threat to me?&lt;/h2&gt;
+&lt;p&gt;The primary threats I am trying to avoid when using a web browser are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Downloading of malicious software such as ransomware and cryptominers without my express permission&lt;/li&gt;
+&lt;li&gt;Fingerprinting that can be used to adjust the prices I see when shopping online among other nefarious purposes&lt;/li&gt;
+&lt;li&gt;Search engines using my browsing habits to respond to queries with links I&amp;rsquo;m more likely to follow than with links that have the information I&amp;rsquo;m actually looking for&lt;/li&gt;
+&lt;li&gt;Disclosure of information about me without my consent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are all very real threats that I&amp;rsquo;ve personally experienced in the past. Ads are the primary means (though there are other ways) for delivering malware and trackers. Google analytics and other site measurement tools are another way your browsing activity is tracked. (You might like to know that Google analytics is not used on this website.) The collected data often gets passed around and as the end user, you have very little control of this information dissemination except to block it outright.&lt;/p&gt;
+&lt;h2 id=&#34;the-search-begins&#34;&gt;The search begins&lt;/h2&gt;
+&lt;p&gt;There has to be a solution to this tracking problem. So I went searching for the ultimate browser/plugin combination that would meet all of my requirements, which are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cross platform: runs on Mac, Windows, Linux, iOS, and Android&lt;/li&gt;
+&lt;li&gt;Blocks all trackers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And secondarily:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allows me to sync my bookmarks between devices&lt;/li&gt;
+&lt;li&gt;Compensates content creators even when ads are blocked&lt;/li&gt;
+&lt;li&gt;Mainstream (used by many people), regularly updated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It turns out there are several that meet the first two requirements. My instinct told me to check out Firefox. I&amp;rsquo;ve heard about TOR and how it helps you to become anonymous on the Web, so I want to at least have that tool in my arsenal. And while I&amp;rsquo;m not a fan of Chrome, I&amp;rsquo;ve heard about Brave which is based on Chromium and becoming more popular. There are others, I know, but remember, I want a mainstream browser, too.&lt;/p&gt;
+&lt;h2 id=&#34;the-independent-privacy-browser-mozilla-firefox&#34;&gt;The independent privacy browser: Mozilla Firefox&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.mozilla.org/en-US/exp/firefox/new&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;left&#34; src=&#34;Fx-Browser-icon-fullColor-128.png&#34; style=&#34;width:128px;padding-right:32px;&#34; alt=&#34;Download Firefox&#34;&gt;&lt;/a&gt;
+Mozilla 
+&lt;a href=&#34;https://www.mozilla.org/firefox/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Firefox&lt;/a&gt; is a great open source, cross platform browser with a rich add-on ecosystem. Lately, Firefox has made great strides in enhancing privacy, blocking many kinds of trackers and ads&amp;ndash;all without third-party extensions. I was surprised to learn that I no longer needed a plugin to block ads&amp;ndash;this is awesome news! It blocks fingerprinting requests from sites known to use fingerprinting techniques. (With fingerprinting, it is possible to track a web user without cookies even when other tracking mechanisms are blocked.) It can sync between devices, too. Mozilla has a small suite of privacy based tools that I&amp;rsquo;m sure I will explore in the future. In fact the only thing lacking from Firefox is a way to compensate content creators after blocking their ads. I highly recommend Firefox to anyone who wants an open source, cross platform browser and for those who just don&amp;rsquo;t like Chromium-based browsers. For what it&amp;rsquo;s worth, Firefox did seem to use less RAM on my Windows laptop than Brave.&lt;/p&gt;
+&lt;h2 id=&#34;the-anonymous-browser-tor-browser&#34;&gt;The anonymous browser: TOR Browser&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.torproject.org/download&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;left&#34; src=&#34;tor-onion.png&#34; style=&#34;width:128px;padding-right:32px&#34; alt=&#34;Download TOR Browser&#34;&gt;&lt;/a&gt;  
+&lt;a href=&#34;https://www.torproject.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TOR Browser&lt;/a&gt; uses the TOR network to provide a relatively high level of anonymity. It tunnels your browsing traffic through multiple internet hosts, the actual source of the requests. Cookies are automatically deleted after every session. All TOR browsers have the same fingerprint rendering fingerprinting techniques less effective. Due to the latency and bandwidth limitations when using TOR, I wouldn&amp;rsquo;t want to use it as my everyday browser&amp;ndash;only when truly needed. If you live in a country where censorship is prevalent and you almost always need TOR capabilities, TOR Browser may be an appropriate choice. But for me, living in the United States, it seems a little too niche. I don&amp;rsquo;t think I need that much privacy&amp;ndash;at least not right now. Note that TOR Browser is not available for iOS at this time though it is available for Windows, Linux, Mac OS, and Android.&lt;/p&gt;
+&lt;h2 id=&#34;my-new-favorite-private-browser-brave&#34;&gt;My new favorite private browser: Brave!&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://brave.com/kub418&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;left&#34; src=&#34;brave-lion.png&#34; style=&#34;width:128px; padding-right:32px&#34; alt=&#34;Download Brave Browser&#34;&gt;&lt;/a&gt;
+The 
+&lt;a href=&#34;https://brave.com/kub418&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Brave Browser&lt;/a&gt; simply blew me away. It&amp;rsquo;s fully compatible with Chrome which means if a site works in Chrome (a very popular browser), it should work in Brave. Chrome extensions work in Brave. I was surprised to find that I could open a TOR browsing tab and gain some anonymity when I needed to, a real benefit in my book. Brave blocks every ad on every website that I&amp;rsquo;ve visited over the last couple of months, and also stops most types of fingerprinting, and the Brave team is continually working on improved anti-fingerprinting techniques. The Brave browser is available on every major platform and lets me sync across devices. Brave has 14 million users and is growing.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://brave.com/kub418&#34; title=&#34;Download Brave Browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;./ad336x280-standard.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What I really like is how Brave offers an opt-in system of rewards for viewing ads that don&amp;rsquo;t track you and that are much less obtrusive than conventional ads seen on the Internet. The advertiser doesn&amp;rsquo;t know anything about you except that their ad was viewed. Ads appear as system notifications, so a small message pops up and eventually disappears and you get paid. Ads are typically not shown when you are actively using your computer. I usually see them after I&amp;rsquo;ve stepped away from my computer and then come back and move the mouse. Sometimes I see an ad when I switch from another application back to the Brave browser. I like that the ads never interfere with what I&amp;rsquo;m doing. If you click on the notification, you get to learn more about the product or service being advertised. It is possible to use your rewards to tip content creators and you can even schedule tips to be made monthly. Or, using the auto-contribute feature, you can let Brave automatically pay content creators based on how often you visit a website. If you&amp;rsquo;d rather keep the rewards, you can redeem them for cash or gift cards, but that requires disclosing personal information to one or more third parties. I&amp;rsquo;m happy that I no longer feel guilty blocking those annoying and malicious ads, and that content creators in the know can still be compensated.&lt;/p&gt;
+&lt;p&gt;(Full disclosure: I have registered as a Brave content creator and will be rewarded if you download the Brave Browser using the links on this page. Within the Brave browser, you may tip me by clicking on the triangle at the right of the address bar when visiting the KubruTech website.)&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;In summary, you can&amp;rsquo;t go wrong with either Brave or Firefox. Brave is a drop-in replacement for Chrome and Firefox has always been a very good alternative to the browser that ships with your operating system of choice. If it&amp;rsquo;s important to you, like it is for me, that content creators be compensated for their work, Brave offers an innovative means for compensating producers while protecting consumers. For most users, I believe Brave is the best browser available right now.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Life Is An Open (Face)Book</title>

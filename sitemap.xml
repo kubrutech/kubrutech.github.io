@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kubrutech.github.io/</loc>
-    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+    <loc>https://kubrutech.github.io/blog/0002-private-browsing/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kubrutech.github.io/blog/0001-my-life-is-an-open-book/</loc>
-    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+    <loc>https://kubrutech.github.io/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kubrutech.github.io/blog/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kubrutech.github.io/blog/0001-my-life-is-an-open-book/</loc>
     <lastmod>2020-05-14T00:00:00+00:00</lastmod>
   </url>
   
