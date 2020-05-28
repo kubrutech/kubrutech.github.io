@@ -5,12 +5,52 @@
     <link>https://kubrutech.github.io/blog/</link>
       <atom:link href="https://kubrutech.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>The KubruTech Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Kubru Technology LLC 2020</copyright><lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Kubru Technology LLC 2020</copyright><lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>The KubruTech Blog</title>
       <link>https://kubrutech.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>Secret Files</title>
+      <link>https://kubrutech.github.io/blog/0003-disk-file-encryption/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://kubrutech.github.io/blog/0003-disk-file-encryption/</guid>
+      <description>&lt;p&gt;How much personal information is on your computer? Is there anything on your computer that, if it were published on the Internet, would make you uncomfortable or even jeopardize your well-being? If so, then you need to use encryption.&lt;/p&gt;
+&lt;h2 id=&#34;rule-of-thumb-encrypt-everything&#34;&gt;Rule of thumb: encrypt everything!&lt;/h2&gt;
+&lt;p&gt;There are different ways to encrypt your data. At the very least, your data should be encrypted while at rest. That means that if your hard drive or flash drive were stolen, your data would remain unencryptable without providing your secret key. On Mac OS, a built-in feature called Filevault will do the job, and on Windows, the equivalent is BitLocker. Linux distributions often provide a way to perform whole-disk encryption, too. However, if you don&amp;rsquo;t have to enter your password when your computer boots up, you really should enable that, as anyone who attempts to boot your computer would have unfettered access to your data. Also, don&amp;rsquo;t store your encryption key with your encrypted data!&lt;/p&gt;
+&lt;h2 id=&#34;safeguard-sensitive-information&#34;&gt;Safeguard sensitive information&lt;/h2&gt;
+&lt;p&gt;You may think that if your whole disk is encrypted that your data is safe. While whole-disk encryption may protect the data on the drive while it is turned off, anyone with access to the computer (legitimately or not) while it is running will be able to read data on the disk. Backups of your files on your encrypted drive will be decrypted when copied, so your backups won&amp;rsquo;t be encrypted unless you explicitly encrypt them. If a drive is removed from its host computer, there are tools that may be used which may be able to give access to the data depending on the configuration of the host computer.&lt;/p&gt;
+&lt;p&gt;The threats we are trying to protect against are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keeping data secret if the physical medium storing it is lost or stolen&lt;/li&gt;
+&lt;li&gt;Protecting all non-public information on portable drives due to high probability of being misplaced or left unguarded&lt;/li&gt;
+&lt;li&gt;Protecting sensitive data from being accessed by malicious software or other illegitimate means&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I recommend encrypting your sensitive data using a third party mechanism, even if it is stored on an encrypted drive. My requirements for such a tool are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cross platform: Can run on Mac OS, Windows, and Linux, and preferrably on Android and iOS, too.&lt;/li&gt;
+&lt;li&gt;Portable: I.e., can be run without installing on the host computer. This is very useful when protecting data on removable or portable drives on public computers.&lt;/li&gt;
+&lt;li&gt;Open source: Auditable by anyone.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;veracrypt-to-the-rescue&#34;&gt;VeraCrypt to the rescue!&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://veracrypt.fr&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;left&#34; src=&#34;VeraCrypt128x128.png&#34; style=&#34;height: 80px; padding-right:32px&#34; alt=&#34;Link to VereCrpyt Website&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;https://veracrypt.fr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VeraCrypt&lt;/a&gt; (and its predecesor, TrueCrypt) meet these requirements and then some. It even offers plausible deniability using hidden volumes, so you can provide a password to an encrypted file containing false or less sensitive data, while the really sensitive data is encrypted a second time inside the first file while not being detectable. That&amp;rsquo;s pretty cool. There are also third-party iOS and Android apps that can manage VeraCrypt files (see the link for Android and iOS support on the VeraCrypt home page).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve used this tool for years to protect sensitive data on a flash drive that I carry on my keychain. Veracrypt, while it can be installed on a host computer, can also be run directly from a flash drive or USB hard drive without being installed, opening up all sorts of oppurtunites for accessing data on any platform.&lt;/p&gt;
+&lt;h2 id=&#34;how-does-veracrypt-work&#34;&gt;How does VeraCrypt work?&lt;/h2&gt;
+&lt;p&gt;VeraCrypt can encrypt an entire drive, one or more partitions on the drive, or it can work with a virtual drive stored as a file on a physical drive. I like to to use VeraCrypt in that last mode, so that&amp;rsquo;s what I will talk about today. If you&amp;rsquo;ve ever worked with disk images in Mac OS, this concept will be very familiar to you.&lt;/p&gt;
+&lt;p&gt;When you launch VeraCrypt, you are given the opportunity to create a new virtual drive or to use an existing one. You simply select the file containing the virtual drive, enter the password and you will have an additional drive available to your system whose contents are encrypted. Since the VeraCrypt executable can be run from a flash drive, this is a very convenient way of storing sensitive information on a flash drive (I carry one on my keychain). If you combine this setup with a live distribution of Linux, you can stick your flash drive in any public computer, boot from it, and have relatively secure access to your sensitive data. And it all fits on a very portable flash drive.&lt;/p&gt;
+&lt;p&gt;You could also place your virtual drive on a remote system such as a network attached storage (NAS) device. This is probably not optimal for large datasets, but for additional security on small files, it will work just fine. If your use case involves networked storage, check to see what encryption options your networked storage platform offers as it will likely have better performance. Theoretically, you could store your virtual disk on a cloud drive, but performance may not be very good, and I wouldn&amp;rsquo;t store highly sensitive information this way.&lt;/p&gt;
+&lt;p&gt;When you are finished using any files on the encrypted virtual drive, simply unmount the virtual drive. (Use the eject command on Mac OS or Windows.). Remember to do this &lt;i&gt;before&lt;/i&gt; disconnecting any removable drives to avoid data corruption. I recommend disabling write caching for removable drives, if your system has such a setting.&lt;/p&gt;
+&lt;h2 id=&#34;caveats&#34;&gt;Caveats&lt;/h2&gt;
+&lt;p&gt;Backups for encrypted drives may require some extra attention. The drive, volume, or virtual disk must be unlocked before you can copy files from it to another location, and this may complicate your existing backup mechanisms. If you use cloning software to copy your entire disk, you will generally be okay, though sometimes it may not be possbile to backup disks with encrypted partitions. I suggest you read the documentation for the disk encryption software you will use as well as the backup software you will use.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t lose your encryption key! If you can&amp;rsquo;t find or recover your key, you will be unable to access your encrypted data, so make sure to store your encryption key in a safe place. How safe of a place depends on the consequences of your data being accessed by the wrong person, so think carefully about your threats and the risks associated with them.&lt;/p&gt;
+&lt;p&gt;One last note of advice: When creating an encrypted volume, Use a strong password that is not&lt;/p&gt;
+&lt;p&gt;So, learn about the built-in encryption mechanisms that ship with your operating system and if they don&amp;rsquo;t meet your needs, look into third party solutions&amp;ndash;there are many. VeraCrypt is a tried and true free and open source solution that has worked well for me for a long time, and may very well be adequate for your needs, too.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Covering My Tracks</title>
