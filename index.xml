@@ -47,7 +47,6 @@
 &lt;h2 id=&#34;caveats&#34;&gt;Caveats&lt;/h2&gt;
 &lt;p&gt;Backups for encrypted drives may require some extra attention. The drive, volume, or virtual disk must be unlocked before you can copy files from it to another location, and this may complicate your existing backup mechanisms. If you use cloning software to copy your entire disk, you will generally be okay, though sometimes it may not be possbile to backup disks with encrypted partitions. I suggest you read the documentation for the disk encryption software you will use as well as the backup software you will use.&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t lose your encryption key! If you can&amp;rsquo;t find or recover your key, you will be unable to access your encrypted data, so make sure to store your encryption key in a safe place. How safe of a place depends on the consequences of your data being accessed by the wrong person, so think carefully about your threats and the risks associated with them.&lt;/p&gt;
-&lt;p&gt;One last note of advice: When creating an encrypted volume, Use a strong password that is not&lt;/p&gt;
 &lt;p&gt;So, learn about the built-in encryption mechanisms that ship with your operating system and if they don&amp;rsquo;t meet your needs, look into third party solutions&amp;ndash;there are many. VeraCrypt is a tried and true free and open source solution that has worked well for me for a long time, and may very well be adequate for your needs, too.&lt;/p&gt;
 </description>
     </item>
