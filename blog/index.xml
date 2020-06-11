@@ -5,12 +5,47 @@
     <link>https://kubrutech.github.io/blog/</link>
       <atom:link href="https://kubrutech.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>The KubruTech Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Kubru Technology LLC 2020</copyright><lastBuildDate>Wed, 27 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © Kubru Technology LLC 2020</copyright><lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>The KubruTech Blog</title>
       <link>https://kubrutech.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>Escaping the Bubble</title>
+      <link>https://kubrutech.github.io/blog/0004-search-engines/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://kubrutech.github.io/blog/0004-search-engines/</guid>
+      <description>&lt;p&gt;Something as seemingly benign as a search engine can&amp;rsquo;t possibly be a danger to our privacy, can it? After all, you have the choice to use a search engine or not use one if you think the search might reveal something about you that you don&amp;rsquo;t want to divulge. We&amp;rsquo;ll it&amp;rsquo;s not that simple.&lt;/p&gt;
+&lt;h2 id=&#34;the-filter-bubble&#34;&gt;The filter bubble&lt;/h2&gt;
+&lt;p&gt;Many search engines use what they learn about us to provide us with links that we are likely to click, not necessarily what we are looking for. Often enough what we are looking for and what we are likely to click overlap enough that we learn to like and trust what these providers present to us. When we follow the links that the algorithms think we want to see, our biases are reinforced. Any preconceived notions that we may have on a subject are strengthened by the new supporting evidence that we have found on the Internet due to the alogrithm&amp;rsquo;s preference to show us what we want to see. This phenomenon has been termed the 
+&lt;a href=&#34;https://everipedia.org/wiki/lang_en/Filter_bubble&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;filter bubble&lt;/a&gt;. As curious, intelectual individuals we should want to hear all sides of a story. It&amp;rsquo;s especially important to do so when deciding on a political issue or doing research for school or other purposes. In those cases, sites that cater to our whims can be more harmful than helpful.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s not just search engines that use our own data against us, social media networks do it, too. And they do it while making us think they do us a favor. They tell us that they use what they learn about us to present more interesting content in our &amp;ldquo;feed.&amp;rdquo; But is that really what&amp;rsquo;s best for us? Do we really want to be fed what we believe without a chance to fully investigate the matter? Search results and tips based on our likes may be fine when planning a vacation, but if we need to make a decision about something important ignoring our own biases, then the likes of Google and Facebook must be avoided if we can&amp;rsquo;t turn off all their data collecting and force them to forget what they know.&lt;/p&gt;
+&lt;h2 id=&#34;the-contenders&#34;&gt;The contenders&lt;/h2&gt;
+&lt;p&gt;There are many search engines that tout their anonymous search capabilities and lack of tracking. Which one is the best? That answer is probably different for each user. It depends on what type of searches you conduct, along with personal preference which is always subjective. Out of the many private search engines a few have become what might be considered popular. Whether that is good or not is left for the reader to decide. An obscure search engine with few users may be superior but may leave the users more trackable by outside entities (it&amp;rsquo;s easier to hide in a crowd). Larger search engines may have relationships with other entities that may make them less than ideal. I discovered three serach engines that seemed large enough to not make me stand out, but that have privacy policies that I can agree with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Duck Duck Go&lt;/li&gt;
+&lt;li&gt;Start Page&lt;/li&gt;
+&lt;li&gt;Qwant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;duck-duck-go&#34;&gt;Duck Duck Go&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the one that is probably most well known. Back in 2014, when Apple announced that 
+&lt;a href=&#34;https://duckduckgo.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Duck Duck Go&lt;/a&gt; would be an available default search engine in the Safari browser, I tried it, just for curiosity&amp;rsquo;s sake. It worked, but the results were often hit-or-miss, and I often had to scroll through pages of almost identical results to see something different. I switched to Bing for a while, but then I tried Duck Duck Go (DDG) again a few months ago and haven&amp;rsquo;t looked back. Search results are highly relevant and it is now my default search engine. Read their privacy policy and all the privacy related information on their website, and I think you&amp;rsquo;ll start to like them, too. DDG does display ads that are provided by Microsoft, but your information is not passed on to Microsoft when selecting those ads. IP address (which can be hidden with a VPN) and 
+&lt;a href=&#34;http://useragentstring.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;user agent string&lt;/a&gt; are used to bill the advertiser, but no other information is passed on to the advertiser itself. Duck Duck Go does as much as it can to keep your searches private.&lt;/p&gt;
+&lt;h2 id=&#34;startpage&#34;&gt;Startpage&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://startpage.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Startpage&lt;/a&gt; is another search engine that has a pretty good privacy policy. They&amp;rsquo;ve been in business for a while, and if Duck Duck Go didn&amp;rsquo;t meet my needs so well, I would probably use Startpage, and in fact, I do use Startpage on the rare occasion that DDG&amp;rsquo;s results aren&amp;rsquo;t what I expected. There have been some concerns about Startpage.com&amp;rsquo;s relationship with adtech company System1, but Startpage claim that the System1 privacy policy does not apply to Startpage and that System1 will help only to better market their privacy search engine. The Startpage privacy policy still stands. There is no tracking or profiling going on on Startpage.&lt;/p&gt;
+&lt;h2 id=&#34;qwant&#34;&gt;Qwant&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://qwant.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Qwant&lt;/a&gt; is a French search engine (that also works in English). I include this here simply because some may like the fact that Qwant is in the European Union and must comply with the 
+&lt;a href=&#34;https://gdpr.eu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GDPR&lt;/a&gt;, and as some may have suspicions about companies based in the United States. It has provided relevant search results for the short time I used it, but I didn&amp;rsquo;t test it extensivley.&lt;/p&gt;
+&lt;h2 id=&#34;the-rest&#34;&gt;The rest&lt;/h2&gt;
+&lt;p&gt;As I mentioned before, there are many, many privacy search engines out there, and I just mentioned the most well-known. Many of these search engines simply anonymize searches that are fed to Google, Yahoo!, or Bing and may add a little of their own &amp;ldquo;sauce.&amp;rdquo; That&amp;rsquo;s OK. The point is that if you want to escape the filter bubble, find a privacy search engine that works well for you and use it instead of the data gathering search engines, like Google, Bing, and Yahoo!. If you&amp;rsquo;ve tried doing this in the past and didn&amp;rsquo;t have good results, try again! You may find, like I did, that the situation with privacy search engines has improved.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://brave.com/kub418&#34; title=&#34;Download Brave Browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;../brave-ad728x90-standard.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Secret Files</title>
@@ -48,6 +83,8 @@
 &lt;p&gt;Backups for encrypted drives may require some extra attention. The drive, volume, or virtual disk must be unlocked before you can copy files from it to another location, and this may complicate your existing backup mechanisms. If you use cloning software to copy your entire disk, you will generally be okay, though sometimes it may not be possbile to backup disks with encrypted partitions. I suggest you read the documentation for the disk encryption software you will use as well as the backup software you will use.&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t lose your encryption key! If you can&amp;rsquo;t find or recover your key, you will be unable to access your encrypted data, so make sure to store your encryption key in a safe place. How safe of a place depends on the consequences of your data being accessed by the wrong person, so think carefully about your threats and the risks associated with them.&lt;/p&gt;
 &lt;p&gt;So, learn about the built-in encryption mechanisms that ship with your operating system and if they don&amp;rsquo;t meet your needs, look into third party solutions&amp;ndash;there are many. VeraCrypt is a tried and true free and open source solution that has worked well for me for a long time, and may very well be adequate for your needs, too.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://brave.com/kub418&#34; title=&#34;Download Brave Browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;../brave-ad728x90-standard.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -132,6 +169,8 @@ There are ligitimate cases where this information should be shared, but I must b
 &lt;p&gt;I find it cost-prohibitive (either in dollars, opportunity, or convenience) to try to hide from a government, and at least currently, don&amp;rsquo;t have anything to hide from them. It is important to realize that all Internet traffic is being monitored, that information is being recorded long-term and that information might be used to your disadvantage in the future. So it&amp;rsquo;s important to be careful about what personal information you share, with whom you share it, and to consider the tustworthiness of the entities holding your personal information.&lt;/p&gt;
 &lt;h2 id=&#34;where-to-from-here&#34;&gt;Where to from here?&lt;/h2&gt;
 &lt;p&gt;In future posts, I&amp;rsquo;ll talk about things I do to protect the information I want to keep private. It will be an interesting and educational journey for sure, and I invite you to follow along and learn with me.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://brave.com/kub418&#34; title=&#34;Download Brave Browser&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;../brave-ad728x90-standard.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
